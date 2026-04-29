@@ -1,7 +1,16 @@
 {
   "name": "vercel-xhttp-relay",
+  "_name_comment": "Project name used by Vercel/NPM",
+
   "version": "1.0.0",
+  "_version_comment": "Current project version",
+
   "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel",
+  "_description_comment": "Short explanation of what this project does",
+
   "private": true,
-  "license": "MIT"
+  "_private_comment": "Prevents accidental publishing to npm",
+
+  "license": "MIT",
+  "_license_comment": "License type for this project"
 }
