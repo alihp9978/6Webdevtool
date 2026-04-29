@@ -1,15 +1,18 @@
 {
-  // Vercel config version
   "version": 2,
+  "_version_comment": "Vercel platform version",
 
-  // Project name
   "name": "vercel-xhttp-relay",
+  "_name_comment": "Project identifier",
 
-  // Rewrite all routes to API
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/index",
+      "_comment": "Catch all routes and forward to API handler"
+    }
   ],
 
-  // Disable trailing slash
-  "trailingSlash": false
+  "trailingSlash": false,
+  "_trailingSlash_comment": "Disable automatic trailing slash behavior"
 }
